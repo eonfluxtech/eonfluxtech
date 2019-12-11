@@ -663,7 +663,7 @@ h2.menu-item:after {
     background: #c9e5ab;
     position: fixed;
     height: 40px;
-    width: 69%;
+    width: auto;
     right: 13px;
     top: -50px;
     transition: all 0.5s;
