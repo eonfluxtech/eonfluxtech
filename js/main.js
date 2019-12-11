@@ -67,7 +67,7 @@
 
 	// Typing Animation (Typed.js)
 	$('#element').typed({
-	    strings: ["Sustainably feeding the planet.", "21st Century AG System.", "Managed AG Services."],
+	    strings: ["Sustainably feeding the planet.", "Rethinking AG System.", "Managed AG Services."],
 	    typeSpeed: -50,
 	    loop: true,
 	    startDelay: 500,
