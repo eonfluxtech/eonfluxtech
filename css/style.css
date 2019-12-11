@@ -971,6 +971,7 @@ h2.menu-item:after {
 }
 
 .name-block-container h1{
+    
     text-transform: capitalize;
     font-weight: 700;
     color: #1b511a;
@@ -996,9 +997,12 @@ h2.menu-item:after {
 }
 
 .name-block-container h1 span {
-    font-size: 26px;
+    box-align: center;              /* As specified */
+    -moz-box-align: center;         /* Mozilla */
+    -webkit-box-align: center;      /* WebKit */
+    font-size: 50px;
     font-weight: 300;
-    display: block;
+    
     text-transform: capitalize;
 }
 
@@ -2653,7 +2657,10 @@ h4.package {
     .menu2 .name-block-container h1 {
         font-size: 40px;
     }
-    .menu2 .name-block-container h1 span,
+    .menu2 .name-block-container h1 span{
+        font-size: 40px;
+        
+    }
     .menu2 .name-block-container h2 {
         font-size: 22px;
         min-height: 22px;
