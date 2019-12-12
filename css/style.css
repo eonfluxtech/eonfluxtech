@@ -503,17 +503,17 @@ a:not([href]):not([tabindex]) {
 }
 
 .slide.one {
-    background: url(../images/slider/slide1.jpg) 48% 48%;
+    background: url(../images/slider/slider1.svg) 48% 48%;
     background-size: cover;
 }
 
 .slide.two {
-    background: url(../images/slider/slide2.jpg) 48% 48%;
+    background: url(../images/slider/slider2.jpg) 48% 48%;
     background-size: cover;
 }
 
 .slide.three {
-    background: url(../images/slider/slide3.jpg) 48% 48%;
+    background: url(../images/slider/slider3.jpg) 48% 48%;
     background-size: cover;
 }
 
