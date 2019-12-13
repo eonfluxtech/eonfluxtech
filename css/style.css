@@ -422,6 +422,7 @@ a:not([href]):not([tabindex]) {
     }
 }
 
+/*
 .overlay {
     background-color: rgba(0, 0, 0, 1);
     height: 100%;
@@ -432,6 +433,7 @@ a:not([href]):not([tabindex]) {
 .overlay.light {
     background-color: rgba(255, 255, 255, 1);
 }
+*/
 
 .opacity9 {
     opacity: 0.9;
@@ -661,13 +663,14 @@ h2.menu-item:after {
 
 .inline-menu-container {
     background: #c9e5ab;
-    position: fixed;
+    position: absolute;
     height: 40px;
-    width: auto;
+    width: 100%;
     right: 13px;
     top: -50px;
     transition: all 0.5s;
     z-index: 1;
+    text-align: right;
 }
 
 .inline-menu-container.showx {
@@ -709,7 +712,7 @@ h2.menu-item:after {
 }
 
 .inline-menu {
-    float: right;
+    
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 20px;
@@ -746,7 +749,7 @@ h2.menu-item:after {
 
 
 .style2.dark {
-	background-color: #F1F3F6
+  background-color: #F1F3F6
 }
 
 
@@ -819,9 +822,11 @@ h2.menu-item:after {
 }
 
 .content-blocks.pop.showx .close-pop {
-	top: 0;
+  top: 0;
 }
-
+.nav-icon {
+    padding: 1rem;
+}
 /*-------------------------------------------------------------------
 
                         4. Page Content
@@ -2263,7 +2268,7 @@ h4.package {
     .inline-menu-container,
     .close-pop {
         right: 0;
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -2371,13 +2376,13 @@ h4.package {
     }
     .menu2 .name-block-container h1 span,
     .menu2 .name-block-container h2 {
-        font-size: 26px;
+        font-size: inherit;
         min-height: 26px;
     }
     .inline-menu-container {
         font-size: 14px;
         right: 10px;
-        width: 69%;
+        width: 100%;
     }
     .inline-menu li {
         padding: 0 10px;

@@ -536,13 +536,14 @@ h2.menu-item:after {
 
 .inline-menu-container {
     background: #c9e5ab;
-    position: fixed;
+    position: absolute;
     height: 40px;
-    width: auto;
+    width: 100%;
     right: 13px;
     top: -50px;
     transition: all 0.5s;
     z-index: 1;
+    text-align: right;
 }
 
 .inline-menu-container.showx {
@@ -584,7 +585,7 @@ h2.menu-item:after {
 }
 
 .inline-menu {
-    float: right;
+    
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 20px;
@@ -695,6 +696,9 @@ h2.menu-item:after {
 
 .content-blocks.pop.showx .close-pop {
   top: 0;
+}
+.nav-icon {
+    padding: 1rem;
 }
 
 /*//////////////////////////////////////////////////////////////////
