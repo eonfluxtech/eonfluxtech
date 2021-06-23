@@ -163,8 +163,8 @@ iframe {
   align-items: center;
   padding: 15px;
 
-  background: #c9e5ab;
-  background: -webkit-linear-gradient(top,  #ffffff, #ffffff);
+  background: #ffffff;
+  background: -webkit-linear-gradient(top, #ffffff, #ffffff);
   background: -o-linear-gradient(top, #ffffff, #ffffff);
   background: -moz-linear-gradient(top, #ffffff, #ffffff);
   background: linear-gradient(top, #ffffff, #ffffff);
@@ -700,6 +700,7 @@ h2.menu-item:after {
 .nav-icon {
     padding: 1rem;
 }
+
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
 @media (max-width: 576px) {

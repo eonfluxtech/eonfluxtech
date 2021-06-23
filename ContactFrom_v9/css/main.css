@@ -171,7 +171,7 @@ iframe {
 
 .wrap-contact100 {
   width: 800px;
-  background: #e3e16c;
+  background: #ffffffff;
   border-radius: 10px;
   overflow: hidden;
   padding: 72px 150px 25px 150px;
@@ -189,6 +189,12 @@ iframe {
 
 .contact100-form {
   width: 100%;
+  font-family: montserrat-Regular;
+  font-size: 15px;
+  
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .contact100-form-title {
@@ -307,20 +313,20 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.4);
-  -moz-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.4);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.4);
-  -o-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.4);
-  -ms-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.4);
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
 }
 
 .contact100-form-btn:hover {
-  background-color: #012010;
-  box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.9);
-  -moz-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.9);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.9);
-  -o-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.9);
-  -ms-box-shadow: 0 10px 30px 0px rgba(201, 229, 171, 0.9);
+  background-color: #80808080;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.9);
+  -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.9);
+  -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.9);
 }
 
 /*------------------------------------------------------------------
